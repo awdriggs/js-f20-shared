@@ -7,14 +7,16 @@ window.onload = function() {
 
   document.querySelector("#title").innerHTML = "Adam's Todo List"
 
-  //select using the clas name
-  var list = document.querySelector(".todoList");
+
 
   //creates new list item
   var todo = document.createElement('li');
   //adds content to the new list item
   todo.innerHTML = "Cook Dinner";
 
+
+  //select using the clas name
+  var list = document.querySelector(".todoList");
   //add to the parent
   list.append(todo);
 
